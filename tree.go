@@ -3,6 +3,8 @@
 // that can be found in the LICENSE file.
 
 // Package tree provides a binary search tree implementation.
+//
+// There are a few more functions in the coming, when I have time.
 package tree
 
 import (
@@ -251,10 +253,10 @@ func (t *Tree) Min() *Node { return t.root.Min() }
 func (t *Tree) Height() int { return t.root.Height() }
 
 // Range returns the search range [from, to] as a slice.
-func (t *Tree) Range(from, to Value) []Value {
-	return nil
-	// TODO
-}
+//func (t *Tree) Range(from, to Value) []Value {
+//	return nil
+//	// TODO
+//}
 
 // Insert inserts a value v into the tree if it does not exist and returns the
 // node containing it.
